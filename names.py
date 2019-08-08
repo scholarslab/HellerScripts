@@ -5,51 +5,85 @@ import re
 
 def alphas_only(input):
     words = []
-    regex = re.compile("[a-zA-Z-]+")
+    regex = re.compile("[a-zA-Z-']+")
     for word in input.split(" "):
         words.append("".join(regex.findall(unidecode.unidecode(word))))
     return " ".join(words).strip()
 
 def strip_parentheticals(input):
-    return re.sub("[\(\[].*?[\)\]]", "", input)
+    preprocess = input
+    for c in ["-"]:
+        preprocess = preprocess.replace(c," ")
+    for c in ["II", "III", "IV"]:
+        preprocess = preprocess.replace(c,"")
+    return re.sub("[\(\[].*?[\)\]]", "", preprocess)
+    
 
 def gs_name(name):
     surname = alphas_only(name.split(",")[0])
     fname = name.split(",")[1] if len(name.split(","))>1 else ""
+
     initials = alphas_only("".join([n[0] if n else "" for n in strip_parentheticals(fname).strip().split(" ")]))
     if initials:
-        gs_name = initials+" "+surname
+        return initials+" "+surname
     else:
-        gs_name = surname
-    return(gs_name)
+        return surname
 
+def gs_name2(name):
+    surname = alphas_only(name.split(",")[0])
+    fname = name.split(",")[1] if len(name.split(","))>1 else ""
+
+    initials = alphas_only("".join([n[0] if n else "" for n in strip_parentheticals(fname).strip().split(" ")]))
+    if initials:
+        return initials[0]+" "+surname
+    else:
+        return surname
+    
+    
 
 with open('names.csv', mode='r') as csvfile:
     csvreader = csv.reader(csvfile)
     gendermap = {row[0]:row[1] if row[1] else "NULL" for row in csvreader}
 
-dupe = {}
+gs_gendermap = {gs_name(name):gendermap[name] for name in gendermap}
 
-for name in gendermap:
-    alphas_name = alphas_only(strip_parentheticals("".join(name.split(",")[0:2])))
-    print(alphas_name)
-    if gs_name(name) not in dupe:
-        dupe[gs_name(name)] = [alphas_name]
-    elif alphas_name not in dupe[gs_name(name)]:
-        dupe[gs_name(name)].append(alphas_name)
+gs_gendermap2 = {gs_name2(name):gendermap[name] for name in gendermap}
 
-for d in dupe:
-    if len(dupe[d])>1:
-        print(d,": ",dupe[d])
+count = 0
+notfound = 0
 
-exit()
+with open("JIABS2010-1559678685.json") as datafile:
+    data = json.load(datafile)
+    print("Authors:\n")
+    for datum in data.values():
+        for author in datum["docinfo"]["bib"]["author"].split(" and "):
+            count+=1
+            name = gs_name(author)
+            if name in gs_gendermap:
+                print(name, " : ", gs_gendermap[name])
+            elif name in gs_gendermap2:
+                print(name, " : ", gs_gendermap2[name])
+            else:
+                print(name, " : NOT FOUND")
+                notfound+=1
+    print("Total names: ", count)
+    print("Not found names: ", notfound)
 
-# with open("names.csv", mode='r') as csvfile:
-#     with open("JIABS2010-1559678685.json") as datafile:
-#         data = json.load(datafile)
-#         for datum in data.values():
-#             if ";" in datum["csv"][0]:
-#                 continue
-            
-#             name = datum["csv"][0]
-#             gender = gendermap[name]
+    count = 0
+    notfound = 0
+    print("Citation authors:\n")
+    for datum in data.values():
+        for citation in datum["citedby"]:
+            for author in citation["bib"]["author"].split(" and "):
+                count+=1
+                name = gs_name(author)
+                if name in gs_gendermap:
+                    print(name, " : ", gs_gendermap[name])
+                elif name in gs_gendermap2:
+                    print(name, " : ", gs_gendermap2[name])
+                else:
+                    print(name, " : NOT FOUND")
+                    notfound+=1
+    print("Total names: ", count)
+    print("Not found names: ", notfound)
+    
