@@ -73,5 +73,5 @@ with open("JIABS2010-1559678685.json") as datafile:
                         citers.add(author)
             for author in authors:
                 for citer in citers:
-                    csvwriter.writerow([author,map_gender(author),citer])
+                    csvwriter.writerow([author,map_gender(author),citer,map_gender(citer)])
                 
