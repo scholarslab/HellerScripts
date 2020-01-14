@@ -42,9 +42,9 @@ def strip_parentheticals(input):
 def match_name_to_initials(initials,surname, words):
     # Remove common label words
     STOPWORDS = ["author","authors","first","name","by","firstname", "editor"]
-    for i in range(len(words)):
-        if words[i].lower() in STOPWORDS:
-            words[i] = ""
+    for STOPWORD in STOPWORDS:
+        if STOPWORD in words:
+            words.remove(STOPWORD)
     # If more than one initial, assume that full names will EITHER have:
     # all initials or *only* the first initial. No partial initial matches.  
     if len(initials) > 1:
@@ -74,7 +74,6 @@ def match_name_to_initials(initials,surname, words):
             return [words[len(initials)+1]]+[words[-1]]
     return None
 
-
 # print(match_name_to_initials(['D', 'T'], "Aitken", [
 #     '', '', '', 'Aitken', 'DT', '2016']))
 # print(match_name_to_initials(['C', 'W'], "Gowans", [
@@ -85,9 +84,12 @@ def match_name_to_initials(initials,surname, words):
 
 
 def gs_name(name):
-    surname = alphas_only(name.split(",")[0])
-    fname = name.split(",")[1] if len(name.split(","))>1 else ""
-
+    if "," in name:
+        surname = alphas_only(name.split(",")[0])
+        fname = name.split(",")[1] if len(name.split(","))>1 else ""
+    else:
+        surname = alphas_only(name.split(" ")[-1])
+        fname = " ".join(name.split(" ")[:-1]) if len(name.split(" ")) > 1 else ""
     initials = alphas_only("".join([n[0] if n else "" for n in strip_parentheticals(fname).strip().split(" ")]))
     if initials:
         return initials+" "+surname
@@ -95,8 +97,12 @@ def gs_name(name):
         return surname
 
 def gs_name_single_initial(name):
-    surname = alphas_only(name.split(",")[0])
-    fname = name.split(",")[1] if len(name.split(","))>1 else ""
+    if "," in name:
+        surname = alphas_only(name.split(",")[0])
+        fname = name.split(",")[1] if len(name.split(","))>1 else ""
+    else:
+        surname = alphas_only(name.split(" ")[-1])
+        fname = " ".join(name.split(" ")[:-1]) if len(name.split(" ")) > 1 else ""
 
     initials = alphas_only("".join([n[0] if n else "" for n in strip_parentheticals(fname).strip().split(" ")]))
     if initials:
@@ -110,20 +116,23 @@ with open('names.csv', mode='r') as csvfile:
 
 gs_namemap = {gs_name(name):name for name in gendermap}
 gs_namemap.update({gs_name_single_initial(name): name for name in gendermap})
-gs_gendermap = {gs_name(name):gendermap[name] for name in gendermap}
-gs_gendermap.update({gs_name_single_initial(name):gendermap[name] for name in gendermap})
+gs_gendermap = {gs_name(name).upper():gendermap[name] for name in gendermap}
+gs_gendermap_single_initial = {gs_name_single_initial(
+    name).upper(): gendermap[name] for name in gendermap}
 
 def map_gender(name):
-    if name in gs_gendermap:
-        return gs_gendermap[name]
+    if name.upper() in gs_gendermap:
+        return gs_gendermap[name.upper()]    
+    elif gs_name_single_initial(name.upper()) in gs_gendermap_single_initial:
+        return gs_gendermap_single_initial[gs_name_single_initial(name.upper())]
     else:
         return "UNKNOWN"
-
 
 matched_citations = []
 unmatched_citations = []
 
 with open("JIABS2010-1559678685.json") as datafile:
+#with open("test.json") as datafile:
     data = json.load(datafile)
     
     with open('network.csv', 'w', newline='') as csvfile, open("cite_names.csv", mode="w") as cite_names_file:
@@ -131,7 +140,7 @@ with open("JIABS2010-1559678685.json") as datafile:
         cite_names_writer = csv.writer(cite_names_file, dialect='excel')
         header = ['author', 'author gender','citation author','citation author gender', 'citation title', 'citation journal','citation url' ]
         csvwriter.writerow(header)
-
+        
         for datum in data.values():
             authors = []
             for author in datum["docinfo"]["bib"]["author"].split(" and "):
@@ -161,7 +170,8 @@ with open("JIABS2010-1559678685.json") as datafile:
                         [author, map_gender(author), citation["author"], map_gender(
                             citation["author"]), citation["title"], citation["journal"], citation["url"]]
                         )
-    
+    exit()
+
     with open("unmatched_citations.csv", mode="w") as citation_file, open("found_citation_names.csv", mode="w") as foundfile:
         citation_csvwriter = csv.writer(citation_file, dialect='excel')
         found_names_csvwriter = csv.writer(foundfile, dialect='excel')
@@ -171,15 +181,17 @@ with open("JIABS2010-1559678685.json") as datafile:
             if "url" in citation:
                 long_name = None
                 if citation["url"].endswith(".pdf"):
-                    print("* Ignoring PDF")
+                    print("* Ignoring PDF", citation["url"])
                     continue
                 # print(citation["url"])
                 response = get(citation["url"])
                 if not response:
-                    print("* No response received after retries")
+                    print("* No response received after retries",
+                          citation["url"])
                     continue
                 if "text/html" not in response.headers['Content-Type']:
-                    print("* Response Content-Type is not text/html")
+                    print("* Response Content-Type is not text/html",
+                          citation["url"])
                     continue
                 html = response.text
                 soup = BeautifulSoup(html, features="html.parser")
@@ -188,7 +200,7 @@ with open("JIABS2010-1559678685.json") as datafile:
                 initials = [i for i in citation["author"].split()[0]]
                 words = [" "]*len(initials) + text.split() + \
                     [" "]*len(initials)
-                print(initials, surname)
+                #print(initials, surname)
                 found_possible = False
                 for i in range(len(words)):
                     words[i] = alphas_only(strip_entities(words[i]))

@@ -1,0 +1,45 @@
+{
+    "Adam, Martin T (Martin Theodor)/No self, no free will, no problem: implications of the Anattakkhaṇa Sutta for a perennial philosophical issue/The Journal of the International Association of Buddhist Studies": {
+        "csv": [
+            "Adam, Martin T (Martin Theodor)",
+            "Male",
+            "No self, no free will, no problem: implications of the Anattakkhaṇa Sutta for a perennial philosophical issue",
+            "The Journal of the International Association of Buddhist Studies",
+            "20100101",
+            "33",
+            "2-Jan",
+            "239",
+            "Frankfurt, Harry G, 1929-; Tipiṭaka. Suttapiṭaka. Saṃyuttanikāya. Anattalakkhaṇasutta; Free will and determinism -- Religious aspects -- Buddhism; Desire -- Religious aspects -- Buddhism; Freedom -- Religious aspects -- Buddhism; Ethics, Buddhist; Peer reviewed",
+            "http://proxy01.its.virginia.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=rfh&AN=ATLA0001887638&site=ehost-live&scope=site"
+        ],
+        "docinfo": {
+            "bib": {
+                "title": "No self, no free will, no problem-Implications of the Anattalakkhaṇa Sutta for a perennial philosophical issue",
+                "url": "https://journals.ub.uni-heidelberg.de/index.php/jiabs/article/download/9280/3141",
+                "author": "MT Adam",
+                "journal": "Journal of the International Association of …",
+                "abstract": "Are we free agents? The free will problem remains one of the great ongoing debates of western philosophy. This paper investigates the Buddha's views on human freedom. It suggests that the Buddha's position is a unique one, implying a negative response to the question of a metaphysically free will but a positive response to the question of moral responsibility and the possibility of human freedom in a spiritual sense. The problem of free will in its most general terms can be formulated as follows. All events are caused. A full …",
+                "eprint": "https://journals.ub.uni-heidelberg.de/index.php/jiabs/article/download/9280/3141"
+            },
+            "source": "scholar",
+            "citedby": 16,
+            "id_scholarcitedby": "8158061632112836566",
+            "_filled": false
+        },
+        "citedby": [
+            {
+                "bib": {
+                    "title": "The Psychology of Moral Judgment and Perception in Indo-Tibetan Buddhist Ethics",
+                    "url": "https://books.google.com/books?hl=en&lr=&id=-mZRDwAAQBAJ&oi=fnd&pg=PA335&ots=REgzgTm3py&sig=6wb0uAZrD9Kc7eM-_cyUkTuO3sU",
+                    "author": "E McRae",
+                    "journal": "The Oxford Handbook of Buddhist Ethics",
+                    "abstract": "In Western principle-based ethics, moral judgment is the ability to put moral principles (or rules) into action—to apply an abstract moral principle to a concrete, particular situation.(Moral principles, as opposed to rules, admit of no exceptions; see Blum 1991) …"
+                },
+                "source": "scholar",
+                "citedby": 15,
+                "id_scholarcitedby": "5893974631474731607",
+                "_filled": false
+            }
+        ]
+    }
+}

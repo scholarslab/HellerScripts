@@ -14,7 +14,7 @@ Dokuan Genkō,(premodern)
 "Anderson, Carol S",FEMALE
 "Anderson, Veanne N",FEMALE
 "Andreeva, Anna",FEMALE
-"Andrews, Susan ",FEMALE
+"Andrews, Susan",FEMALE
 "Angell, Jane",FEMALE
 "Appleton, Naomi",FEMALE
 "Arbel, Keren",FEMALE
@@ -29,7 +29,7 @@ Dokuan Genkō,(premodern)
 Beimatsho,FEMALE
 Beimatsho,FEMALE
 "Bentor, Yael",FEMALE
-"Berger, Patricia ",FEMALE
+"Berger, Patricia",FEMALE
 "Blackburn, Anne M",FEMALE
 "Blair, Heather",FEMALE
 "Blair, Heather (Translator)",FEMALE
@@ -49,7 +49,7 @@ Beimatsho,FEMALE
 "Carlisle, Clare",FEMALE
 "Cassaniti, Julia",FEMALE
 "Chadha, Monima‏",FEMALE
-"Charleux, Isabelle ",FEMALE
+"Charleux, Isabelle",FEMALE
 "Cheng, Fung Kei",FEMALE
 "Cheng, Wei-Yi",FEMALE
 "Ching, Chao-jung",FEMALE
@@ -57,7 +57,7 @@ Beimatsho,FEMALE
 "Cho, Francisca",FEMALE
 "Choi, Jeong-Ja",FEMALE
 "Choong, Yoke",FEMALE
-"Chou, Wen-shing ",FEMALE
+"Chou, Wen-shing",FEMALE
 "Cirklová, Jitka",FEMALE
 "Clayton, Barbra R",FEMALE
 "Clipston, Janice",FEMALE
@@ -118,8 +118,8 @@ Beimatsho,FEMALE
 "Gyatso, Janet",FEMALE
 "Gyatso, Janet",FEMALE
 "Gyatso, Janet",FEMALE
-"Gyatso, Janet ",FEMALE
-"Gyatso, Janet ",FEMALE
+"Gyatso, Janet",FEMALE
+"Gyatso, Janet",FEMALE
 "Habata, Hiromi",FEMALE
 "Haggerty, Rena",FEMALE
 "Hardacre, Helen",FEMALE
@@ -132,7 +132,7 @@ Beimatsho,FEMALE
 "Heirman, Ann",FEMALE
 "Heller, Amy",FEMALE
 "Heller, Natasha",FEMALE
-"Helman-Ważny, Agnieszka ",FEMALE
+"Helman-Ważny, Agnieszka",FEMALE
 "Hiyama, Satomi",FEMALE
 "Hong, Jeehee",FEMALE
 "Horner, Isaline Blew",FEMALE
@@ -196,7 +196,7 @@ Karma Lekshe Tsomo BhiksíŁuníŁiíă,FEMALE
 "Lewis, Sara",FEMALE
 "Liao, Pei-Ru",FEMALE
 "Liu, Cuilan",FEMALE
-"Liu, Shufen ",FEMALE
+"Liu, Shufen",FEMALE
 "Lomi, Benedetta",FEMALE
 "López Sáenz, Maria Carmen",FEMALE
 "Ludvik, Catherine",FEMALE
@@ -214,12 +214,12 @@ Karma Lekshe Tsomo BhiksíŁuníŁiíă,FEMALE
 "Meeks, Lori Rachelle",FEMALE
 "Meinert, Carmen",FEMALE
 "Meinheit, Susan",FEMALE
-"Meinheit, Susan ",FEMALE
+"Meinheit, Susan",FEMALE
 "Miller, Kristie",FEMALE
 "Miller, W Blythe",FEMALE
 "Monius, Anne E",FEMALE
 "Moore, Elizabeth Howard",FEMALE
-"Morcom, Anna ",FEMALE
+"Morcom, Anna",FEMALE
 "Moto-Sanchez, Milla Micka",FEMALE
 "Mross, Michaela",FEMALE
 "Mross, Michaela (Translator, ""Author of introduction, etc. "", Annotator)",FEMALE
@@ -266,7 +266,7 @@ Karma Lekshe Tsomo BhiksíŁuníŁiíă,FEMALE
 "Schlosser, Andrea",FEMALE
 "Schneiderman, Jill S",FEMALE
 "Schober, Juliane",FEMALE
-"Schrempf, Mona ",FEMALE
+"Schrempf, Mona",FEMALE
 "Schuster, Nancy",FEMALE
 "Scott, Rachelle M",FEMALE
 "Sernesi, Marta",FEMALE
@@ -335,9 +335,12 @@ Padma'tsho,FEMALE
 "Wakabayashi, Haruko Nishioka",FEMALE
 "Zhu, Tianshu",FEMALE
 "Lin, Nancy",FEMALE 
-"Cantwell, Cathy; Mayer, Robert ","FEMALE, MALE"
-"Rong, Ma; Lhundup, Tanzen","FEMALE, MALE"
-"Yeh, Emily T.; Henderson, Mark ","FEMALE, MALE"
+"Cantwell, Cathy",FEMALE
+"Mayer, Robert",MALE
+"Rong, Ma",FEMALE
+"Lhundup, Tanzen",MALE
+"Yeh, Emily T.",FEMALE
+"Henderson, Mark",MALE
 "Lugli, Ligeia",FEMALE?
 "Cowherds, The","Group (including Dreyfus, Garfield, Newland, Priest, Siderits, Tanaka, Thakchoe, Tillemans, and Westerhoff: https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/cowherds-moonshadows-conventional-truth-in-buddhist-philosophy-new-york-oxford-university-press-2011-2250-isbn-978-0-19-975143-3/BFC107357311DC39C772D9ADFF3C8266/core-reader"
 "Abé, Ryūichi",MALE
@@ -367,7 +370,7 @@ An€�layo Bhikkhu,MALE
 "Apple, James",MALE
 "Apple, James B",MALE
 "Apple, James B.",MALE
-"Apple, James B. ",MALE
+"Apple, James B.",MALE
 "Aramaki, Noritoshi",MALE
 "Arènes, Pierre",MALE
 "Arlt, Robert",MALE
@@ -454,7 +457,7 @@ Brahmaíăli Bhikkhu,MALE
 "Bushelle, Ethan",MALE
 "Buswell, Robert E Jr",MALE
 "Cabezón, José Ignacio",MALE
-"Cabezón, José Ignacio ",MALE
+"Cabezón, José Ignacio",MALE
 "Cadge, Wendy",MALE
 "Caifang, Zhu",MALE
 "Callahan, Christopher",MALE
@@ -469,7 +472,7 @@ Candrakīrti,MALE
 "Carter, Caleb S",MALE
 "Carvalho, Fernando Domicildes (Translator)",MALE
 "Catt, Adam (Translator)",MALE
-"Chaix, Rémi ",MALE
+"Chaix, Rémi",MALE
 "Chakravarthi, Ram Prasad",MALE
 "Chan, Wing-Shing",MALE
 "Chaskalson, Michael",MALE
@@ -481,10 +484,10 @@ Candrakīrti,MALE
 "Chen, Shih-Chung (Shih-Chung Frederick)",MALE
 "Chia, Jack Meng-Tat",MALE
 "Chiew, Hui Ho",MALE
-"Childs, Geoff ",MALE
-"Childs, Geoff ",MALE
+"Childs, Geoff",MALE
+"Childs, Geoff",MALE
 "Chilson, Clark",MALE
-"Chin, Keitō ",MALE
+"Chin, Keitō",MALE
 "Choong, Mun-Keat",MALE
 "Chow, King Wo",MALE
 "Chryssides, George D",MALE
@@ -524,7 +527,7 @@ Candrakīrti,MALE
 "De Silva, D A Premakumara",MALE
 "De Silva, Padmal",MALE
 "Debreczeny, Karl",MALE
-"Debreczeny, Karl ",MALE
+"Debreczeny, Karl",MALE
 "Deeg, Max",MALE
 Deegalle Mahinda,MALE
 "Del Toso, Krishna",MALE
@@ -553,10 +556,10 @@ Devasia M A,MALE
 "Dorman, Benjamin (Translator)",MALE
 "Dotson, Brandon",MALE
 "Dotson, Brandon",MALE
-"Dotson, Brandon ",MALE
+"Dotson, Brandon",MALE
 "Drewes, David",MALE
 "Dreyfus, Georges",MALE
-"Dreyfus, Georges ",MALE
+"Dreyfus, Georges",MALE
 "Drott, Edward Robertson",MALE
 "Drummond, Michael S",MALE
 "Duckworth, D.",MALE
@@ -572,8 +575,8 @@ Devasia M A,MALE
 "Elphinstone, Bradley",MALE
 "Eltschinger, Vincent",MALE
 "Elverskog, Johan",MALE
-"Elverskog, Johan ",MALE
-"Elverskog, Johan ",MALE
+"Elverskog, Johan",MALE
+"Elverskog, Johan",MALE
 "Enomoto, Fumio",MALE
 "Eskildsen, Stephen",MALE
 "Esler, Dylan",MALE
@@ -590,7 +593,7 @@ Devasia M A,MALE
 "Ferraro, Giuseppe",MALE
 "Fink, Charles Kedric",MALE
 "Fiordalis, David V",MALE
-"Fischer, Andrew M. ",MALE
+"Fischer, Andrew M.",MALE
 "Fitzgerald, James",MALE
 "Fitzgerald, James L",MALE
 "Flanagan, Owen J",MALE
@@ -622,7 +625,7 @@ Devasia M A,MALE
 "Gerloff, Torsten",MALE
 "Germano, David",MALE
 "Germano, David",MALE
-"Germano, David ",MALE
+"Germano, David",MALE
 "Gethin, Rupert",MALE
 "Ghose, Lynken",MALE
 "Gibbs, Gregory G",MALE
@@ -650,7 +653,7 @@ Devasia M A,MALE
 Gray Tuttle,MALE
 "Gray, David B",MALE
 "Gray, David B",MALE
-"Gray, David B. ",MALE
+"Gray, David B.",MALE
 "Green, Phillip Scott Ellis‏",MALE
 "Green, Phillip Scott Ellis",MALE
 "Green, Ronald S",MALE
@@ -666,12 +669,12 @@ Gray Tuttle,MALE
 "Grosnick, William H",MALE
 "Grossman, Paul",MALE
 "Gruber, Joel S (Joel Stephen)",MALE
-"Gruschke, Andreas ",MALE
+"Gruschke, Andreas",MALE
 "Guenther, Herbert V",MALE
 "Gülberg, Niels",MALE
 "Gunasena, Amal",MALE
 "Gupta, Anurag",MALE
-"Gyatso, Yönten ",MALE
+"Gyatso, Yönten",MALE
 "Haar, Barend J ter",MALE
 "Habito, Ruben L F",MALE
 "Hackett, Paul G",MALE
@@ -734,8 +737,8 @@ Gray Tuttle,MALE
 "Hu, Yao",MALE
 "Hu, Zhiqiang",MALE
 "Hubbard, Jamie",MALE
-"Huber, Toni ",MALE
-"Huber, Toni ",MALE
+"Huber, Toni",MALE
+"Huber, Toni",MALE
 "Hùifēng, Shì",MALE
 "Huntington Jr., C. W.",MALE
 "Huntington, C W",MALE
@@ -764,14 +767,14 @@ Huyên-Vi Thích 1926-2005 (Translator),MALE
 "Itō, Noriaki",MALE
 "Ives, Christopher",MALE
 "Iwata, Takashi",MALE
-"Jackson, David ",MALE
+"Jackson, David",MALE
 "Jackson, David Paul",MALE
-"Jackson, Roger ",MALE
+"Jackson, Roger",MALE
 "Jackson, Roger R",MALE
 "Jackson, Roger R (Reid)",MALE
-"Jackson, Roger R. ",MALE
+"Jackson, Roger R.",MALE
 "Jagchid, Sechin",MALE
-"Jahoda, Christian ",MALE
+"Jahoda, Christian",MALE
 "Jaini, Padmanabh S",MALE
 "Jaini, Padmanabh S (""Author of introduction, etc. "", Translator)",MALE
 "Jaini, Padmanabh S.",MALE
@@ -853,8 +856,8 @@ Kloṅ-chen-pa Dri-med-'od-zer,MALE
 "Kosuta, Matthew",MALE
 "Kotyk, Jeffrey",MALE
 "Koyama, Tenyu",MALE
-"Kragh, Ulrich Timme ",MALE
-"Kragh, Ulrich Timme ",MALE
+"Kragh, Ulrich Timme",MALE
+"Kragh, Ulrich Timme",MALE
 "Krasser, Helmut",MALE
 "Krishan, Y",MALE
 "Krishna, Anand",MALE
@@ -871,7 +874,7 @@ Kloṅ-chen-pa Dri-med-'od-zer,MALE
 "LaFleur, William R",MALE
 "Lai, Whalen",MALE
 "Lai, Whalen W",MALE
-"Lainé, Bruno ",MALE
+"Lainé, Bruno",MALE
 "Laish, Eran",MALE
 "Lamotte, Etienne",MALE
 "Lanoue, David G",MALE
@@ -922,7 +925,7 @@ Lhundup Sopa Geshe,MALE
 "Mathes, Klaus-Dieter",MALE
 Matthew T. Kapstein,MALE
 "Mayer, Robert",MALE
-"Mayer, Robert ",MALE
+"Mayer, Robert",MALE
 "Mc Allister, Patrick",MALE
 "McCarthy, Stephen",MALE
 "McCrea, Lawrence",MALE
@@ -947,7 +950,7 @@ Matthew T. Kapstein,MALE
 "Miller, Alan L",MALE
 "Miller, Roy Andrew",MALE
 "Mills, Martin A",MALE
-"Mills, Martin A. ",MALE
+"Mills, Martin A.",MALE
 "Mimaki, Katsumi",MALE
 "Minnema, Lourens",MALE
 "Mitchell, Scott A",MALE
@@ -974,7 +977,7 @@ Nado Lopen,MALE
 "Nicholson, Hugh",MALE
 "Nicholson, Hugh (Hugh R)",MALE
 "Nietupski, Paul K.",MALE
-"Nietupski, Paul K. ",MALE
+"Nietupski, Paul K.",MALE
 "Nietupski, Paul Kocot",MALE
 "Nihom, Max",MALE
 "Nizamis, Khristos",MALE
@@ -1011,7 +1014,7 @@ Pāsādika Bhikkhu,MALE
 "Petech, Luciano",MALE
 "Peters, Kyle (Kyle R)",MALE
 "Peterson, Richard (Translator)",MALE
-"Phillips, Bryan ",MALE
+"Phillips, Bryan",MALE
 "Pickering, John",MALE
 "Pinault, Georges-Jean",MALE
 "Poceski, Mario",MALE
@@ -1054,7 +1057,7 @@ Pāsādika Bhikkhu,MALE
 "Robson, James",MALE
 "Rodrií�guez Bornaetxea, Fernando",MALE
 "Roesler, Ulrike",MALE
-"Ronis, Jann ",MALE
+"Ronis, Jann",MALE
 "Roth, Jonathan M",MALE
 "Rowe, Mark (Mark Michael)",MALE
 "Rowe, Mark (Mark Michael) (Editor)",MALE
@@ -1066,7 +1069,7 @@ Pāsādika Bhikkhu,MALE
 "Ruppert, Brian Douglas",MALE
 "Ruppert, Brian O",MALE
 "Sabo, Theodore",MALE
-"SAKA, Chihiro ",MALE
+"SAKA, Chihiro",MALE
 "Sakuma, Hidenori S",MALE
 "Salguero, C Pierce",MALE
 "Salguero, Gabriel A Rev. Dr.",MALE
@@ -1078,8 +1081,8 @@ Pāsādika Bhikkhu,MALE
 "Sauchelli, Andrea",MALE
 "Scarfe, Adam Christian",MALE
 "Schaeffer, Kurtis R",MALE
-"Schaeffer, Kurtis R. ",MALE
-"Schaeffer, Kurtis R. ",MALE
+"Schaeffer, Kurtis R.",MALE
+"Schaeffer, Kurtis R.",MALE
 "Scheid, Bernhard, 1960- (Editor)",MALE
 "Scherer, Bee",MALE
 "Scherer, Burkhard",MALE
@@ -1131,7 +1134,7 @@ Pāsādika Bhikkhu,MALE
 "Soucy, Alexander",MALE
 "Sparham, Gareth",MALE
 "Sperling, Elliot",MALE
-"Sperling, Elliot ",MALE
+"Sperling, Elliot",MALE
 "Sponberg, Alan (Dharmachari Saaramati)",MALE
 "Sridharan, Vishnu",MALE
 "Srivastava, K M",MALE
@@ -1153,7 +1156,7 @@ Pāsādika Bhikkhu,MALE
 "Swanson, Paul L (Paul Loren), 1951- (Translator)",MALE
 "Swearer, Donald K",MALE
 "Sweet, Michael J (Michael Jay)",MALE
-"Sweet, Michael J. ",MALE
+"Sweet, Michael J.",MALE
 "Syrkin, Alexander",MALE
 "Szántó, Péter-Dániel",MALE
 "Szántó, Péter-Dániel",MALE
@@ -1190,7 +1193,7 @@ Pāsādika Bhikkhu,MALE
 "Tsering, Tashi",MALE
 "Tsyrempilov, Nikolay",MALE
 "Tucci, Giuseppe",MALE
-"Tuttle, Gray ",MALE
+"Tuttle, Gray",MALE
 "Tweed, Thomas A",MALE
 "Tweed, Thomas A",MALE
 "Tzohar, Roy",MALE
@@ -1199,8 +1202,8 @@ Pāsādika Bhikkhu,MALE
 "Usarski, Frank",MALE
 "Valerio, Adam",MALE
 "Van Dam, Nicholas T",MALE
-"van der Kuijp, Leonard W. J. ",MALE
-"van der Kuijp, Leonard W. J. ",MALE
+"van der Kuijp, Leonard W. J.",MALE
+"van der Kuijp, Leonard W. J.",MALE
 "Van Schaik, Sam",MALE
 "van Schaik, Sam",MALE
 "Vassiliades, Demetrios Th. (Demetrios Theodossios)",MALE
@@ -1248,7 +1251,7 @@ Walpola Rāhula,MALE
 "Webster, David",MALE
 "Wedemeyer, Christian K",MALE
 "Wedemeyer, Christian K",MALE
-"Wedemeyer, Christian K. ",MALE
+"Wedemeyer, Christian K.",MALE
 "Werner, Karel",MALE
 "Westerhoff, J",MALE
 "Westerhoff, Jan",MALE
@@ -1256,7 +1259,7 @@ Walpola Rāhula,MALE
 "Whitaker, Jarrod L (Translator)",MALE
 "Whitaker, Justin",MALE
 "White, David Gordon",MALE
-"White, David Gordon ",MALE
+"White, David Gordon",MALE
 "Whitehead, Richard",MALE
 "Wiering, Jelle",MALE
 "Wijesekera, O H de A",MALE
@@ -1295,7 +1298,9 @@ Walpola Rāhula,MALE
 "Childs, Geoff",MALE
 "Tsering, Dawa",MALE
 "Farrington, John D.",MALE
-"Dalton, Jacob; Davis, Tom; van Schaik, Sam",MALE
+"Dalton, Jacob",MALE
+"Davis, Tom",MALE
+"van Schaik, Sam",MALE
 "Davis, Tom",MALE
 "van Schaik, Sam",MALE
 "Magnusson, Jan",MALE
@@ -1428,3 +1433,224 @@ Sidhorn Sandhanoo,
 "Yoshimizu, Kiyotaka Dr.",
 "Yoshinaga, Shin'ichi",
 "Yoshiyuki, Tomishima",
+"Gowans, Christopher",MALE
+"Repetti, Rick",MALE
+"Wattanagun, Kanya",FEMALE
+"Jones, Patrick",MALE
+Analayo Bhikkhu,MALE
+"Pitkin, Annabella",FEMALE
+"Hutton, Eric L",MALE
+"Davis, Gordon Fraser",MALE
+"Cowherds, The",MALE
+"Hamblin, Jack",MALE
+"Carpenter, Amber",FEMALE
+"Bommarito, Nicolas",MALE
+"Nichols, Shaun",MALE
+"Strohminger, Nina",FEMALE
+"Deguchi, Yasuo",MALE
+"Priest, Graham",MALE
+"Westerhoff, Jan",MALE
+"Schlieter, Jens",MALE
+"Quist, Andrew",MALE
+"Locke, Jessica",FEMALE
+"Hanner, Oren",MALE
+"Locke, Jessica E",FEMALE
+"Moyano, Rafael Pulido",MALE
+"Vignato, Giuseppe",MALE
+"Giorgino, Vincenzo Mario Bruno",MALE
+"Renteria-Uriarte, Xabier",MALE
+"Pettigrove, Glen",MALE
+"Jerryson, Michael",MALE
+"Chen, Lang",FEMALE
+"Chen, Huaiyu",MALE
+"Lehr, Peter",MALE
+"Milligan, Matthew David",MALE
+"Milligan, M D",MALE
+"Green, Alexandra",FEMALE
+"Abrahms-Kavunenko, Saskia",FEMALE
+"Kaloyanides, Alexandra",FEMALE
+"Bretfeld-Wolf, Ann-Katharin",FEMALE
+"Analayo, Bhikkhu",MALE
+"Kassam, Zayn R",FEMALE
+"Bakhati, Pramila",FEMALE
+"Fleenor,  Benjamin James",MALE
+"Tosa, Keiko",FEMALE
+"Barstow, Geoffrey",MALE
+"Papaconstantinou, Arietta",FEMALE
+"Schwartz, Daniel",MALE
+"Levman, Bryan  Geoffrey",MALE
+"Wu, Jiang",MALE
+"Wu, Juan",FEMALE
+"Zhang, Hanmo",MALE
+Analayo,MALE
+"Marino, Joseph A",MALE
+"Ostler,  Nicholas",MALE
+"Salomon, Richard",MALE
+"Zacchetti, Stefano",MALE
+"Walser, Joseph G",MALE
+"Shi, Changtzu",MALE
+"Li, Bohan",FEMALE
+"Roloff, Carola",FEMALE
+"Berner, Ulrich",MALE
+"Rondolino, Massimo A",MALE
+"Kantor, Hans-Rudolf",MALE
+"Shulman, David",MALE
+"Gamble, Ruth",FEMALE
+"Bass, Jeffrey Wayne",MALE
+"McCombs, Jason Matthew",MALE
+"Gkoutzis,  Konstantinos",MALE
+"Lobel, Adam S.",MALE
+"Rati_, Isabelle",FEMALE
+"Lysenko, Viktoria",FEMALE
+"Schmidt-Leukel, Perry",MALE
+"Churchill, John",MALE
+"Devenish,  Rodney",MALE
+"Lopez, Manuel",MALE
+"Saunders, David C",MALE
+"Chabot, Roger",MALE
+"Boldt, Thea D",FEMALE
+"McGovern, Nathan Michael",MALE
+"Ray, Himanshu Prabha",FEMALE
+"Ginsburg, Tom",MALE
+"Husken, Ute",FEMALE
+"Ito, Tomomi",FEMALE
+"Larsson, Tomas",MALE
+"Kellam, Amy",FEMALE
+"Casas, Roger",MALE
+"Williams, Paul",MALE
+"Acri, Andrea",MALE
+"Lehnert, Martin",MALE
+"Lehnert, Martin",MALE
+"Samuel, Geoffrey",MALE
+"Goble, Geoffrey C",MALE
+"Lopes,  Ana Cristina O",FEMALE
+"Sorensen,  Michelle Janet",FEMALE
+"Tsultem, Uranchimeg",FEMALE
+"Tribe, Anthony",MALE
+"Ducher, C_cile",FEMALE
+"Ducher, Cecile",FEMALE
+"Leonteva, Lena",FEMALE
+"Vetturini, Gianpaolo",MALE
+"Nagasawa, Jake Ernest",MALE
+"Huntington, Eric",MALE
+"Muldowney, Kristen Kail",FEMALE
+"Baroetto, Giuseppe",MALE
+"Vose, Kevin A",MALE
+"Ary, Elijah",MALE
+"Kornicki, Peter",MALE
+"Campbell, John R. B.",MALE
+"Overbey, Ryan Richard",MALE
+"Wang, Michelle C",FEMALE
+"Berkwitz, Stephen C",MALE
+"Brown, Claudia",FEMALE
+"Hirst, Jacqueline Suthren",FEMALE
+"DeCaroli,  Robert Daniel",MALE
+"Frydenlund, Iselin",FEMALE
+"Frydenlund, Iselin",FEMALE
+"Payne, R",MALE
+"Payne,Richard",MALE
+"Brock, Rita Nakashima",FEMALE
+"Young, Jonathan",MALE
+"Wilson,  Jeffrey Townsend",MALE
+"Fifield, Justin Andrew",MALE
+"Michelson, Yuwen",FEMALE
+"Sabirov, Rustam",MALE
+"Kassor, Constance E",FEMALE
+"Jacques, Guillaume",MALE
+"Proffitt, Aaron Patrick",MALE
+"Proffitt, Aaron P",MALE
+"McBride, Richard D",MALE
+"Kleutghen, Kristina",FEMALE
+"Yu,  Jimmy Yung Fung",MALE
+"Callahan,  Elizabeth M.",FEMALE
+"Lau, Lawrence Y K",MALE
+"Amar, Abhishek Singh",MALE
+"Amar, Abhishek Singh",MALE
+"Willis, Michael",MALE
+"Lo Turco, Bruno",MALE
+"Gong, Jun",MALE
+"Roe, Sharon J",FEMALE
+"Spiranec, Tomislav",MALE
+"Hirshberg, Daniel",MALE
+"Brunnholzl, Karl",MALE
+"Kaushik, Garima",FEMALE
+"Strathern, Alan",MALE
+"Lambkin, Magdalen",FEMALE
+"Lysenko, Viktoria",FEMALE
+"Palumbo, Antonello",MALE
+"Philonenko, Marc",MALE
+"Muldoon-Hules, Karen",FEMALE
+"Huang, Li Ting",FEMALE
+"Kardas, Goran",MALE
+"Meyers, Karin L",FEMALE
+"Brunnholzl, Karl",MALE
+"Staal, Frits",MALE
+"Bloom, Phillip Emmanual",MALE
+"Geslani, Marko",MALE
+"Mackay, Margie",FEMALE
+"Pustay, Steven E",MALE
+"Ohnishi, Junji",MALE
+"Zitterbart, Susan",FEMALE
+"Hosak, Mark",MALE
+"Veere, Henny van der",MALE
+"O'Brien-Kop, Karen",FEMALE
+"Strong, John S",MALE
+"Teiser, Stephen",MALE
+"Storch, Tanya",FEMALE
+"Marlowe, Britt",MALE
+"Kucera, Karil J",FEMALE
+"Jung, Ghichul",MALE
+"Pettit,  Jonathan Edwin Eugene",MALE
+"Pettit, J E E",MALE
+"Sun, Yinggang",MALE
+"Smith, Bardwell L",MALE
+"Guillou, Anne Yvonne",FEMALE
+"Baird, Ian G",MALE
+"Epperson, Erin Hillary",FEMALE
+"Lindsay, Rory",MALE
+"Herrou, Adeline",FEMALE
+"Tsomo, Karma Lekshe",FEMALE
+"Ivey, Christina L",FEMALE
+"DeVido, Elise Anne",FEMALE
+"Mohr, Thea",FEMALE
+"Tsedroen, Jampa",MALE
+"Wang, Youru",MALE
+"Spink, Walter",MALE
+"Clark, Chris",MALE
+"Twist, Rebecca L",FEMALE
+"Zivkovic, Tanya",FEMALE
+"Vargas-O'Bryan, Ivette M",FEMALE
+"Ujeed, Sangseraima",FEMALE
+"Ferrari, Fabrizio",MALE
+"Drewes, David Donald",MALE
+"O'Neal, Halle Elizabeth",FEMALE
+"Payne, Richard K",MALE
+"Abramson, Marc S",MALE
+"Raz, Gil",MALE
+"Whaley, Mark",MALE
+"Yang, Shao-yun",MALE
+"Yang, Shao-yun",MALE
+"Geaney, Jane",FEMALE
+"Yost, Tyson",MALE
+"Liu, Zhen",MALE
+"Foulks, Beverley",FEMALE
+"Broy, Nikolas",MALE
+"Sheng, Ruth",FEMALE
+"McClintock, Sara L",FEMALE
+"Blumenthal, James",MALE
+"Schapiro, Joshua",MALE
+"Cole, Alan",MALE
+"Burton-Rose, Daniel",MALE
+"Muriuki, Wamae Wachanga",MALE
+"Anderl, Christoph",MALE
+"Mrozik, Susanne",FEMALE
+"Rotman, Andy",MALE
+"Straube, Martin",MALE
+"Admirand, Peter",MALE
+"Ramoo, Dinesh K",MALE
+"Ducoeur, Guillaume",MALE
+"Lepekhova, Elena Sergeevna",FEMALE
+"Schlutter, Morten",MALE
+"Morrison, Elizabeth A",FEMALE
+"Duerlinger, James",MALE
+"Manevskaia, Ilona",FEMALE
