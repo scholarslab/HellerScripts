@@ -138,11 +138,13 @@ with open("JIABS2010-1559678685.json") as datafile:
     with open('network.csv', 'w', newline='') as csvfile, open("cite_names.csv", mode="w") as cite_names_file:
         csvwriter = csv.writer(csvfile, dialect='excel')
         cite_names_writer = csv.writer(cite_names_file, dialect='excel')
-        header = ['author', 'author gender', 'citedby author', 'citedby author gender',
-                  'citedby title', 'citedby journal', 'citedby url']
+        header = ['cited author', 'cited author gender', 'cited title', 'cited journal', 'citation author', 'citation author gender',
+                  'citation title', 'citation journal', 'citation url']
         csvwriter.writerow(header)
         
         for datum in data.values():
+            title = datum["docinfo"]["bib"]["title"]
+            journal = datum["docinfo"]["bib"]["journal"] if datum["docinfo"]["bib"]["journal"] else "N/A"
             authors = []
             for author in datum["docinfo"]["bib"]["author"].split(" and "):
                 authors.append(author)
@@ -168,10 +170,10 @@ with open("JIABS2010-1559678685.json") as datafile:
                     else:
                         matched_citations.append(citation)
                     csvwriter.writerow(
-                        [author, map_gender(author), citation["author"], map_gender(
+                        [author, map_gender(author), title, journal, citation["author"], map_gender(
                             citation["author"]), citation["title"], citation["journal"], citation["url"]]
                         )
-    #exit()
+    exit()
 
     with open("unmatched_citations.csv", mode="w") as citation_file, open("found_citation_names.csv", mode="w") as foundfile:
         citation_csvwriter = csv.writer(citation_file, dialect='excel')
